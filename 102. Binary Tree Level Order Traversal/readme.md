@@ -1,0 +1,6 @@
+解题思路:
+层次遍历
+1.建立一个临时level_queue，然后做层次遍历
+2.依次取出level_queue的每一个值，放入一个临时的temp_queue中.当level_queue为空时候，说明遍历完
+一个层次，再把temp_queue中的值依次放入level_queue。
+继续遍历
